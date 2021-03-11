@@ -3,6 +3,9 @@
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[490, 737]"/>
+    </Property>
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
@@ -27,72 +30,71 @@
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="palabraGuiones" min="-2" pref="470" max="-2" attributes="0"/>
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="463" max="-2" attributes="0"/>
-                      <Component id="imagenAhorcado" min="-2" pref="255" max="-2" attributes="0"/>
-                  </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="letra_A" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="letra_A1" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_B" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="letra_A2" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_C" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="letra_A3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_D" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="letra_A4" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_E" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="letra_A5" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_F" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="letra_A6" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_G" min="-2" pref="50" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="letra_A7" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_H" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="letra_A8" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_I" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="letra_A9" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_J" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="letra_A10" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_K" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="letra_A11" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_L" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="letra_A12" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_M" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="letra_A13" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_N" min="-2" pref="50" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="letra_A14" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_Ñ" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="letra_A15" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_O" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="letra_A16" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_P" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="letra_A17" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_Q" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="letra_A18" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_R" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="letra_A19" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_S" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="letra_A20" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_T" min="-2" pref="50" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="letra_A21" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_U" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="letra_A22" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_V" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="letra_A23" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_W" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="letra_A24" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="letra_A25" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_X" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="letra_A26" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_Y" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="letra_A27" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="letra_Z" min="-2" pref="50" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="110" max="-2" attributes="0"/>
+              <Component id="imagenAhorcado" min="-2" pref="255" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -106,42 +108,42 @@
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="letra_A" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="letra_A1" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="letra_A2" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="letra_A3" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="letra_A4" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="letra_A5" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="letra_A6" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_B" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_C" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_D" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_E" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_F" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_G" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="letra_A7" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="letra_A8" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="letra_A9" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="letra_A10" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="letra_A11" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="letra_A12" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="letra_A13" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_H" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_I" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_J" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_K" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_L" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_M" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_N" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="letra_A14" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="letra_A15" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="letra_A16" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="letra_A17" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="letra_A18" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="letra_A19" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="letra_A20" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_Ñ" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_O" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_P" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_Q" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_R" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_S" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_T" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="letra_A21" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="letra_A22" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="letra_A23" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="letra_A24" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="letra_A25" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="letra_A26" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                  <Component id="letra_A27" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_U" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_V" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_W" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_X" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_Y" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="letra_Z" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="116" max="32767" attributes="0"/>
           </Group>
@@ -169,220 +171,220 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_AActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A1">
+    <Component class="javax.swing.JButton" name="letra_B">
       <Properties>
         <Property name="text" type="java.lang.String" value="B"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A1ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_BActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A2">
+    <Component class="javax.swing.JButton" name="letra_C">
       <Properties>
         <Property name="text" type="java.lang.String" value="C"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A2ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_CActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A3">
+    <Component class="javax.swing.JButton" name="letra_D">
       <Properties>
         <Property name="text" type="java.lang.String" value="D"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A3ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_DActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A4">
+    <Component class="javax.swing.JButton" name="letra_E">
       <Properties>
         <Property name="text" type="java.lang.String" value="E"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A4ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_EActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A5">
+    <Component class="javax.swing.JButton" name="letra_F">
       <Properties>
         <Property name="text" type="java.lang.String" value="F"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A5ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_FActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A6">
+    <Component class="javax.swing.JButton" name="letra_G">
       <Properties>
         <Property name="text" type="java.lang.String" value="G"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A6ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_GActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A7">
+    <Component class="javax.swing.JButton" name="letra_H">
       <Properties>
         <Property name="text" type="java.lang.String" value="H"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A7ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_HActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A8">
+    <Component class="javax.swing.JButton" name="letra_I">
       <Properties>
         <Property name="text" type="java.lang.String" value="I"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A8ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_IActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A9">
+    <Component class="javax.swing.JButton" name="letra_J">
       <Properties>
         <Property name="text" type="java.lang.String" value="J"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A9ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_JActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A10">
+    <Component class="javax.swing.JButton" name="letra_K">
       <Properties>
         <Property name="text" type="java.lang.String" value="K"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A10ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_KActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A11">
+    <Component class="javax.swing.JButton" name="letra_L">
       <Properties>
         <Property name="text" type="java.lang.String" value="L"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A11ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_LActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A12">
+    <Component class="javax.swing.JButton" name="letra_M">
       <Properties>
         <Property name="text" type="java.lang.String" value="M"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A12ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_MActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A13">
+    <Component class="javax.swing.JButton" name="letra_N">
       <Properties>
         <Property name="text" type="java.lang.String" value="N"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A13ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_NActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A14">
+    <Component class="javax.swing.JButton" name="letra_&#xd1;">
       <Properties>
         <Property name="text" type="java.lang.String" value="&#xd1;"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A14ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_&#xd1;ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A15">
+    <Component class="javax.swing.JButton" name="letra_O">
       <Properties>
         <Property name="text" type="java.lang.String" value="O"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A15ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_OActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A16">
+    <Component class="javax.swing.JButton" name="letra_P">
       <Properties>
         <Property name="text" type="java.lang.String" value="P"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A16ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_PActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A17">
+    <Component class="javax.swing.JButton" name="letra_Q">
       <Properties>
         <Property name="text" type="java.lang.String" value="Q"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A17ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_QActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A18">
+    <Component class="javax.swing.JButton" name="letra_R">
       <Properties>
         <Property name="text" type="java.lang.String" value="R"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A18ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_RActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A19">
+    <Component class="javax.swing.JButton" name="letra_S">
       <Properties>
         <Property name="text" type="java.lang.String" value="S"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A19ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_SActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A20">
+    <Component class="javax.swing.JButton" name="letra_T">
       <Properties>
         <Property name="text" type="java.lang.String" value="T"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A20ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_TActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A21">
+    <Component class="javax.swing.JButton" name="letra_U">
       <Properties>
         <Property name="text" type="java.lang.String" value="U"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A21ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_UActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A22">
+    <Component class="javax.swing.JButton" name="letra_V">
       <Properties>
         <Property name="text" type="java.lang.String" value="V"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A22ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_VActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A23">
+    <Component class="javax.swing.JButton" name="letra_W">
       <Properties>
         <Property name="text" type="java.lang.String" value="W"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A23ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_WActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A24">
+    <Component class="javax.swing.JButton" name="letra">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letraActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="letra_X">
       <Properties>
         <Property name="text" type="java.lang.String" value="X"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A24ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_XActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A25">
+    <Component class="javax.swing.JButton" name="letra_Y">
       <Properties>
         <Property name="text" type="java.lang.String" value="Y"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A25ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_YActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="letra_A26">
+    <Component class="javax.swing.JButton" name="letra_Z">
       <Properties>
         <Property name="text" type="java.lang.String" value="Z"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A26ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="letra_A27">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="A"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_A27ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="letra_ZActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>
