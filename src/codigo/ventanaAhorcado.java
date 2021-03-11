@@ -8,6 +8,7 @@ package codigo;
 import java.awt.Image;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
+import sun.awt.image.GifImageDecoder;
 
 /**
  *
@@ -17,6 +18,7 @@ public class ventanaAhorcado extends javax.swing.JFrame {
     
     String palabraOculta = "CETYS";
     int contadorFallos = 0;
+    int aciertos = 0;
     
     /**
      * Creates new form ventanaAhorcado
@@ -31,9 +33,29 @@ public class ventanaAhorcado extends javax.swing.JFrame {
     }
     
     private void chequeaLetra(String letra){
+        String auxiliar = palabraGuiones.getText();
+        boolean perder = false;
+       
         if (palabraOculta.contains(letra)){
             //la letra si que está, tengo que quitar el guión bajo 
             //y ponerla en su posición
+            //si usas indexOf te subo la nota
+            for (int i=0; i<palabraOculta.length(); i++){
+                if(palabraOculta.charAt(i) == letra.charAt(0)){
+                    System.out.println(i);
+                    auxiliar = auxiliar.substring(0, 2*i) + letra + auxiliar.substring(2*i + 1);
+                    
+                }
+                if (aciertos==palabraOculta.length()){
+                    System.out.println("Has acertado todas!! Eres un winner :)");
+                    dibujaImagen2();
+                }
+            }
+            palabraGuiones.setText(auxiliar);
+        }
+        
+        if (contadorFallos==6){
+            System.out.println("Has perdido :( mua mua");
         }
         else{
             //la letra no está y hay que aumentar el contador de fallos
@@ -41,6 +63,10 @@ public class ventanaAhorcado extends javax.swing.JFrame {
             contadorFallos++;
             dibujaImagen();
         }
+        
+        //que el juego detecte si la partida ha terminado 
+        //porque has ganado
+        //o porque has perdido
     }
     
     private void dibujaImagen(){
@@ -52,12 +78,26 @@ public class ventanaAhorcado extends javax.swing.JFrame {
             case 3: nombreImagen = "/imagenes/ahorcado_3.png"; break;
             case 4: nombreImagen = "/imagenes/ahorcado_4.png"; break;
             case 5: nombreImagen = "/imagenes/ahorcado_5.png"; break;
-            default : nombreImagen = "/imagenes/ahorcado_fin.png"; break;
+            case 6 : nombreImagen = "/imagenes/ahorcado_fin.jpeg"; break;
         }
-        
         //cargar la imágen correspondiente en el jLable del imagenahorcado
         ImageIcon miImagen = new ImageIcon(
         new ImageIcon(getClass().getResource(nombreImagen)).getImage()
+                .getScaledInstance(imagenAhorcado.getWidth(), 
+                        imagenAhorcado.getHeight(), Image.SCALE_DEFAULT)
+        );
+        imagenAhorcado.setIcon(miImagen);
+    }
+    private void dibujaImagen2(){
+
+        String nombreImagen2 = "";
+        switch (aciertos){
+            case 0: nombreImagen2 = "/imagenes/acertasteTodo.png"; break;
+            default : nombreImagen2 = "/imagenes/acertasteTodo.png"; break;
+        }
+        //cargar la imágen correspondiente en el jLable del imagenahorcado
+        ImageIcon miImagen = new ImageIcon(
+        new ImageIcon(getClass().getResource(nombreImagen2)).getImage()
                 .getScaledInstance(imagenAhorcado.getWidth(), 
                         imagenAhorcado.getHeight(), Image.SCALE_DEFAULT)
         );
