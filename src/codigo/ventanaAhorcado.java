@@ -8,7 +8,6 @@ package codigo;
 import java.awt.Image;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
-import sun.awt.image.GifImageDecoder;
 
 /**
  *
@@ -18,24 +17,41 @@ public class ventanaAhorcado extends javax.swing.JFrame {
     
     String palabraOculta = "CETYS";
     int contadorFallos = 0;
-    int aciertos = 0;
-    
+    //creamos una variable para indicar si es el fin de la partida
+    boolean finPartida= false;
     /**
      * Creates new form ventanaAhorcado
      */
+//    private void palabraAleatoria(){
+//        variasPalabras = new String[] {"universidad", "dam", "cetys", "esternocleido"};
+//        Random random = new Random();
+//        //elegimos una posición aleatoria
+//        int unaPosicion = random.nextInt(variasPalabras.length);
+//        //guardamos en la palabraOculta la palabra que nos haya salido aleatoriamente
+//        palabraOculta = variasPalabras[unaPosicion];
+//    }
+    
     public ventanaAhorcado() {
         initComponents();
+        //iniciamos la imágen primera
+        dibujaImagen(0);
     }
     
     private void chequeaBoton(JButton boton){
-        chequeaLetra(boton.getText());
-        boton.setEnabled(false);
+        //indicamos que mientras no sea el final de la partida los botones 
+        //sigan funcionando
+        if (!finPartida){
+            chequeaLetra(boton.getText());
+            boton.setEnabled(false);
+        }
     }
     
     private void chequeaLetra(String letra){
+        //leemos lo que hay en pantalla y lo guardamos en un String auxiliar
         String auxiliar = palabraGuiones.getText();
-        boolean perder = false;
-       
+        //ponemos siempre las letras en mayúscula para que así no haya errores
+        letra = letra.toUpperCase();
+        
         if (palabraOculta.contains(letra)){
             //la letra si que está, tengo que quitar el guión bajo 
             //y ponerla en su posición
@@ -46,40 +62,50 @@ public class ventanaAhorcado extends javax.swing.JFrame {
                     auxiliar = auxiliar.substring(0, 2*i) + letra + auxiliar.substring(2*i + 1);
                     
                 }
-                if (aciertos==palabraOculta.length()){
-                    System.out.println("Has acertado todas!! Eres un winner :)");
-                    dibujaImagen2();
-                }
             }
+            //se actualiza la pantalla para que aparezcan las letras que 
+            //hayamos adivinado
             palabraGuiones.setText(auxiliar);
         }
-        
-        if (contadorFallos==6){
-            System.out.println("Has perdido :( mua mua");
-        }
+        //A medida que se van teniendo fallos se van acumulando en el
+        //contadorFallos y aparecerá la imagen correspondiente al número de
+        //fallos que vamos teniendo hasta un máximo de 6 fallos que es cuando 
+        //nos aparecerá la imágen de que hemos perdido la partida.
         else{
-            //la letra no está y hay que aumentar el contador de fallos
-            //y cambiar la imagen del ahorcado
             contadorFallos++;
-            dibujaImagen();
+            dibujaImagen(contadorFallos);
+            // Si el contador de fallos tiene 6 o más significará que la partida
+            //ha termminado y ya no funcionarán los botones
+            if (contadorFallos >= 6){
+                finPartida = true;
+            }
         }
+        //si en la palabra no queda ningún guión más aparecerá la imágen de que
+        //hemos ganado la partida
+        if (!auxiliar.contains("_")){
+            dibujaImagen(-1);
+        }
+        
         
         //que el juego detecte si la partida ha terminado 
         //porque has ganado
         //o porque has perdido
     }
     
-    private void dibujaImagen(){
+    private void dibujaImagen(int numeroImagen){
         String nombreImagen = "";
-        switch (contadorFallos){//switch instrucción que tienen todos los lenguajes de programación
-            case 0: nombreImagen = "/imagenes/ahorcado_0.png"; break;
+        
+        switch (numeroImagen){//switch instrucción que tienen todos los lenguajes de programación
+            case 0: nombreImagen = "/imagenes/ahorcado_0.png" ; break;
             case 1: nombreImagen = "/imagenes/ahorcado_1.png"; break;
             case 2: nombreImagen = "/imagenes/ahorcado_2.png"; break;
             case 3: nombreImagen = "/imagenes/ahorcado_3.png"; break;
             case 4: nombreImagen = "/imagenes/ahorcado_4.png"; break;
             case 5: nombreImagen = "/imagenes/ahorcado_5.png"; break;
-            case 6 : nombreImagen = "/imagenes/ahorcado_fin.jpeg"; break;
+            case -1 : nombreImagen = "/imagenes/acertasteTodo.jpg"; break;
+            default: nombreImagen = "/imagenes/ahorcado_6.png";
         }
+        
         //cargar la imágen correspondiente en el jLable del imagenahorcado
         ImageIcon miImagen = new ImageIcon(
         new ImageIcon(getClass().getResource(nombreImagen)).getImage()
@@ -88,21 +114,7 @@ public class ventanaAhorcado extends javax.swing.JFrame {
         );
         imagenAhorcado.setIcon(miImagen);
     }
-    private void dibujaImagen2(){
-
-        String nombreImagen2 = "";
-        switch (aciertos){
-            case 0: nombreImagen2 = "/imagenes/acertasteTodo.png"; break;
-            default : nombreImagen2 = "/imagenes/acertasteTodo.png"; break;
-        }
-        //cargar la imágen correspondiente en el jLable del imagenahorcado
-        ImageIcon miImagen = new ImageIcon(
-        new ImageIcon(getClass().getResource(nombreImagen2)).getImage()
-                .getScaledInstance(imagenAhorcado.getWidth(), 
-                        imagenAhorcado.getHeight(), Image.SCALE_DEFAULT)
-        );
-        imagenAhorcado.setIcon(miImagen);
-    }
+   
     
     /**
      * This method is called from within the constructor to initialize the form.
@@ -145,6 +157,7 @@ public class ventanaAhorcado extends javax.swing.JFrame {
         letra_Z = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(102, 255, 255));
         setPreferredSize(new java.awt.Dimension(490, 737));
 
         palabraGuiones.setFont(new java.awt.Font("Times New Roman", 1, 48)); // NOI18N
