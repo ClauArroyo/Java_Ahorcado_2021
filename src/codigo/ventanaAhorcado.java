@@ -6,6 +6,7 @@
 package codigo;
 
 import java.awt.Image;
+import java.util.Random;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 
@@ -22,14 +23,6 @@ public class ventanaAhorcado extends javax.swing.JFrame {
     /**
      * Creates new form ventanaAhorcado
      */
-//    private void palabraAleatoria(){
-//        variasPalabras = new String[] {"universidad", "dam", "cetys", "esternocleido"};
-//        Random random = new Random();
-//        //elegimos una posición aleatoria
-//        int unaPosicion = random.nextInt(variasPalabras.length);
-//        //guardamos en la palabraOculta la palabra que nos haya salido aleatoriamente
-//        palabraOculta = variasPalabras[unaPosicion];
-//    }
     
     public ventanaAhorcado() {
         initComponents();
@@ -103,7 +96,7 @@ public class ventanaAhorcado extends javax.swing.JFrame {
             case 4: nombreImagen = "/imagenes/ahorcado_4.png"; break;
             case 5: nombreImagen = "/imagenes/ahorcado_5.png"; break;
             case -1 : nombreImagen = "/imagenes/acertasteTodo.jpg"; break;
-            default: nombreImagen = "/imagenes/ahorcado_6.png";
+            default: nombreImagen = "/imagenes/ahorcado_6.jpg";
         }
         
         //cargar la imágen correspondiente en el jLable del imagenahorcado
